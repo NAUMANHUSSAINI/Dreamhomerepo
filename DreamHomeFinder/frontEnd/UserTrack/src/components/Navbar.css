@@ -1,0 +1,31 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFE715;
+    color: 101920;
+    padding: 10px 20px;
+    /* width: 100vw; */
+  }
+
+  
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    
+  }
+  
+  .nav-links a,a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #101920;
+    margin-left: 20px;
+  }
+  
+  .nav-links a:hover, a:hover{
+    /* font-size:medium; */
+    font-weight: bold;
+  }

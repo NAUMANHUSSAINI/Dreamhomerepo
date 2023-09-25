@@ -1,0 +1,35 @@
+#content{
+    width: 70vw;
+    margin: 15% auto;
+    color: aliceblue;
+}
+#content {
+    background-color: #101920;
+    color: #FFFFFF; /* Text color */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    animation: fadeInUp 1.5s ease; /* Apply fadeInUp animation to h1 */
+}
+
+h4 {
+    font-size: 18px;
+    animation: fadeInUp 3s ease; /* Apply fadeInUp animation to h3 with a delay */
+}
+
+/* Define the fadeInUp animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

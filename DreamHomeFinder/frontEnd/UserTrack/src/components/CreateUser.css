@@ -1,0 +1,21 @@
+body{
+    background-color: #101920;
+}
+
+.container-fluid{
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    background-color: #fff;
+    margin: 70px auto;
+    display:flex ;
+    flex-direction: column;
+    padding: 30px;
+    width: 33vw;
+    height: 70vh;
+
+}
+
+.btn{
+    font-size: 25px;
+    margin-top: 25px;
+}
